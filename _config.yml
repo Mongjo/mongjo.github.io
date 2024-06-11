@@ -33,7 +33,7 @@ enable_copy_code_button  : # true, false (default)
 copyright                : "uomaep" # "copyright" name, defaults to site.title
 copyright_url            : "https://uomaep.github.io" # "copyright" URL, defaults to site.url
 comments:
-  provider               : false #"utterances" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider               : "utterances" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -45,7 +45,7 @@ comments:
     colorscheme          : # "light" (default), "dark"
   utterances:
     theme                : "github-light" # "github-light" (default), "github-dark"
-    issue_term           : # "pathname"
+    issue_term           : "pathname"
   giscus:
     repo_id              : # Shown during giscus setup at https://giscus.app
     category_name        : # Full text name of the category
