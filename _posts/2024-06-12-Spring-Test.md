@@ -1,5 +1,5 @@
 ---
-title: "[스프링] 스프링 1"
+title: "[스프링] 스프링 22"
 excerpt: post description
 categories:
   - Spring
@@ -8,5 +8,4 @@ date: 2024-06-12
 # Hello
 
 
-
-![[screen_capture 2024-06-12 19.50.45.png]]
+![](assets/images/posts_img/screen_capture%202024-06-12%2019.59.55.png)
