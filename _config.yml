@@ -16,22 +16,22 @@ minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt
 
 # Site Settings
 locale                   : "ko"
-title                    : "uoooooooomaep"
+title                    : ""
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "uomaep"
-description              : "우맵의 공유 공간"
-url                      : "https://uomaep.github.io"
+name                     : "Mongjo"
+description              : "몽조 블로그"
+url                      : "https://mongjo.github.io"
 #baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "uomaep/uomaep.github.io"
+repository               : "Mongjo/mongjo.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 enable_copy_code_button  : # true, false (default)
-copyright                : "uomaep" # "copyright" name, defaults to site.title
-copyright_url            : "https://uomaep.github.io" # "copyright" URL, defaults to site.url
+copyright                : "mongjo" # "copyright" name, defaults to site.title
+copyright_url            : "https://mongjo.github.io" # "copyright" URL, defaults to site.url
 comments:
   provider               : "utterances" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
@@ -106,21 +106,21 @@ social:
 analytics:
   provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          : "G-R0DX9933TN"
+    tracking_id          : "G-6S24BZ4KTY"
     anonymize_ip         : # true, false (default)
 
 
 # Site Author
 author:
-  name             : # "uomaep"
+  name             : # "mongjo"
   avatar           : "/assets/images/meee.png"
-  bio              : "우맵의 공유 공간"
+  bio              : "몽조 블로그"
   location         : # "South Korea"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "uomaep@email.com"
+      # url: "alswh2427@naver.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -326,4 +326,4 @@ defaults:
       classes: wide
       toc: true
       toc_sticky: true
-      author: uomaep
+      author: mongjo 

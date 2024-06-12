@@ -7,11 +7,11 @@ main:
     url: /about/
   
   - title: "GitHub"
-    url: https://github.com/uomaep
+    url: https://github.com/Mongjo
 
 categories:
-  - title: "Linux"
-    url: /categories/linux/
+  # - title: "Linux"
+    # url: /categories/linux/
   - title: "Spring"
     url: /categories/spring/
   - title: "운영체제"

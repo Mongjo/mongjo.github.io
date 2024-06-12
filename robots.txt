@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://uomaep.github.io/sitemap.xml
+Sitemap: https://mongjo.github.io/sitemap.xml
