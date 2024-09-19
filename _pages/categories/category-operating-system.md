@@ -1,9 +1,9 @@
 ---
-title: "운영체제"
+title: 운영체제
 layout: category
 permalink: /categories/operating-system/
-author_profile: true
+author_profile: false
 taxonomy: 운영체제
 sidebar:
-  nav: "categories"
+  nav: categories
 ---
