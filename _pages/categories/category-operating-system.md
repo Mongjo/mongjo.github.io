@@ -1,5 +1,5 @@
 ---
-title: 운영체제
+title: OperatingSystem
 layout: category
 permalink: /categories/operating-system/
 author_profile: true
