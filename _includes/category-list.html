@@ -17,7 +17,7 @@
     {% assign post_count = category[1] | size %}
     <a href="{{ category_name | slugify | prepend: path_type | prepend: site.category_archive.path | relative_url }}"
       class="page__taxonomy-item p-category" rel="tag">
-      {{ category_name }}(Test) ({{ post_count }})
+      {{ category_name }} ({{ post_count }})
     </a>
     {% unless forloop.last %}<span class="sep">, </span>{% endunless %}
     {% endfor %}
