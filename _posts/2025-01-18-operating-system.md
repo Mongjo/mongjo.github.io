@@ -1,5 +1,5 @@
 ---
-title: "[운영체제] 컴퓨터 시스템과 운영체제"
+title: "[운영체제] 컴퓨터 시스템과 운영체제 (명품_운영체제 Ch 02)"
 categories:
   - operating-system
 date: 2025-01-18
