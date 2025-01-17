@@ -1,9 +1,9 @@
 ---
-title: OS
+title: os
 layout: category
 permalink: /categories/os/
 author_profile: true
-taxonomy: OS
+taxonomy: os
 sidebar:
   nav: categories
 ---
