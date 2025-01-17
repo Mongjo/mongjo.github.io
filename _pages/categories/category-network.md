@@ -1,9 +1,9 @@
 ---
-title: os
+title: 네트워크
 layout: category
-permalink: /categories/os/
+permalink: /categories/network/
 author_profile: true
-taxonomy: os
+taxonomy: network
 sidebar:
   nav: categories
 ---
