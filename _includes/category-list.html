@@ -6,16 +6,14 @@
 {% endcase %}
 
 {% if site.categories %}
-{% assign categories_sorted = site.categories | sort_natural %}
-
 <p class="page__taxonomy">
   <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].categories_label
     | default: "Categories:" }} </strong>
   <span itemprop="keywords">
-    {% for category in categories_sorted %}
+    {% for category in site.categories %}
     {% assign category_name = category[0] %}
     {% assign post_count = category[1] | size %}
-    <a href="{{ category_name | slugify | prepend: path_type | prepend: site.category_archive.path | relative_url }}"
+    <a href="{{ site.category_archive.path | append: '/' | append: category_name | slugify | relative_url }}"
       class="page__taxonomy-item p-category" rel="tag">
       {{ category_name }} ({{ post_count }})
     </a>
@@ -23,6 +21,8 @@
     {% endfor %}
   </span>
 </p>
+{% else %}
+<p>No categories found.</p>
 {% endif %}
 
 
