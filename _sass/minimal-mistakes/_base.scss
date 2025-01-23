@@ -96,6 +96,18 @@ fieldset {
   widows: 3;
 }
 
+ul,
+ol {
+  font-size: 1em; /* 기본 글씨 크기 설정 */
+}
+
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+  font-size: 1em; /* 중첩 리스트도 동일한 크기 유지 */
+}
+
 /* abbreviations */
 
 abbr[title],
